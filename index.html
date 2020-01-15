@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Вёрстка сайта Div'ами</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div id="main_container">
+	
+		<div id="header_first">
+			<div class="center_column">
+				<ul>
+					<li><a href="#">Войти</a></li>
+					<li><a href="#">Мой аккаунт</a></li>
+					<li><a href="#">Статус заказов</a></li>
+					<li><a href="#">Помощь</a></li>			
+				</ul>
+			</div>
+		</div>
+		
+		<div id="header_second">
+			<div class="center_column">
+				<div id="logo">
+					<img class="centered_image" src="img/logo_v2.png">
+				</div>
+				<div id="search">
+					<div id="search_form">
+						<input type="search">
+						<div id="search_button">
+							<form>
+								<div id="search_button_image">
+									<img src="img/search.png" alt="magnifier">
+								</div>
+								<button>
+									<div id="button_text">Найти</div>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="cart_and_checkout">
+					<div id="cart">
+						<div id="cart_container" class="inline_block_center">
+							<div id="cart_image">
+								<img class="centered_image" src="img/cart.png">
+							</div>
+							<div id="cart_text">
+								<a href="#">Корзина</a>
+							</div>
+						</div>
+					</div>
+					<div id="checkout">
+						<div id="checkout_container" class="inline_block_center">
+							<div id="checkout_sum">₽100.0</div>
+							<div><button>Проверить</button></div>
+						</div>
+					</div>
+				</div>
+				<div id="wishlist">
+					<div id="wishlist_image_and_counter">
+						<img class="centered_image" src="img/wishlist_star.png">
+						<div id="wishlist_counter">20</div>
+					</div>
+					<div id="wishlist_text">
+						Желаемое
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="header_third">
+			<div class="center_column">
+				<ul>
+					<li><a href="#">Компьютеры</a></li>
+					<li><a href="#">Кулинария</a></li>
+					<li><a href="#">Образование</a></li>
+					<li><a href="#">Художественная литература</a></li>
+					<li><a href="#">Здоровье</a></li>
+					<li><a href="#">Математика</a></li>
+					<li><a href="#">Медицина</a></li>
+					<li><a href="#">Справочники</a></li>
+					<li><a href="#">Наука</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="content">
+			<div class="center_column">
+				<div id="categories">
+					<div class="categories_h1">Категории</div>
+					<ul class="categories_h2">
+						<li>
+							<a href="#">Все</a>
+						</li>
+						<li>
+							<a href="#">Художественная литература</a>
+							<ul class="categories_h3">
+								<li><a href="#">Подросткам</a></li>
+								<li><a href="#">Научная фантастика</a></li>
+								<li><a href="#">Фэнтези</a></li>
+								<li><a href="#">Мистика</a></li>
+								<li><a href="#">Романтика</a></li>
+								<li><a href="#">Поэзия</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Нехудожественная литература</a>
+							<ul class="categories_h3">
+								<li><a href="#">Комиксы</a></li>
+								<li><a href="#">Кулинария</a></li>
+								<li><a href="#">Психология</a></li>
+								<li><a href="#">Медицина</a></li>
+								<li><a href="#">Искусство</a></li>
+								<li><a href="#">Фотография</a></li>
+								<li><a href="#">Закон</a></li>
+								<li><a href="#">История</a></li>
+								<li><a href="#">Бизнес</a></li>
+								<li><a href="#">Компьютеры</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Другие</a>
+							<ul class="categories_h3">
+								<li><a href="#">Дети</a></li>
+								<li><a href="#">Путешествия</a></li>
+								<li><a href="#">Секс</a></li>
+								<li><a href="#">Наука</a></li>
+								<li><a href="#">Спорт</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div id="products">
+					<ul class="products_tabs">
+						<li>
+							<input type="radio" name="tabs" id="bestsellers" checked>
+							<label for="bestsellers">Бестселлеры</label>
+							<div class="tab_content">
+								<div class="tab_row">
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 1 товар 1 товар 1 товар 1 товар 1 товар 1</a>
+										<span>₽100</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 2</a>
+										<span>₽200</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 3</a>
+										<span>₽300</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 4</a>
+										<span>₽400</span>
+									</div>
+								</div>
+								<div class="tab_row">
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 5</a>
+										<span>₽100</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 6</a>
+										<span>₽200</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 7</a>
+										<span>₽300</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 8</a>
+										<span>₽400</span>
+									</div>
+								</div>
+								<div class="tab_row">
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 9</a>
+										<span>₽100</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 10</a>
+										<span>₽200</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 11</a>
+										<span>₽300</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 12</a>
+										<span>₽400</span>
+									</div>
+								</div>
+								<div class="tab_row">
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 13</a>
+										<span>₽100</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 14</a>
+										<span>₽200</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 15</a>
+										<span>₽300</span>
+									</div>
+									<div class="tab_cell">
+										<img class="centered_image" src="img/book_mini.jpg" alt="book">
+										<a href="#">товар 16</a>
+										<span>₽400</span>
+									</div>
+								</div>
+								<div class="tab_pages">
+									страницы
+								</div>
+							</div>
+						</li>
+						<li>
+							<input type="radio" name="tabs" id="new_arrivals">
+							<label for="new_arrivals">Новые поступления</label>
+							<div class="tab_content">
+								<div class="tab_row">
+									<div class="tab_cell">товар 17</div>
+									<div class="tab_cell">товар 18</div>
+									<div class="tab_cell">товар 19</div>
+									<div class="tab_cell">товар 20</div>
+								</div>
+								<div class="tab_row">         
+									<div class="tab_cell">товар 21</div>
+									<div class="tab_cell">товар 22</div>
+									<div class="tab_cell">товар 23</div>
+									<div class="tab_cell">товар 24</div>
+								</div>
+								<div class="tab_row">
+									<div class="tab_cell">товар 25</div>
+									<div class="tab_cell">товар 26</div>
+									<div class="tab_cell">товар 27</div>
+									<div class="tab_cell">товар 28</div>
+								</div>
+								<div class="tab_row">
+									<div class="tab_cell">товар 29</div>
+									<div class="tab_cell">товар 30</div>
+									<div class="tab_cell">товар 31</div>
+									<div class="tab_cell">товар 32</div>
+								</div>
+								<div class="tab_pages">
+									страницы
+								</div>
+							</div>
+						</li>
+						<li>
+							<input type="radio" name="tabs" id="special_offers">
+							<label for="special_offers">Особые предложения</label>
+						</li>
+						<li>
+							<input type="radio" name="tabs" id="out_of_stock">
+							<label for="out_of_stock">Нет в наличии</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer_genres">
+			<div class="center_column">
+				футер жанров
+			</div>
+		</div>
+		
+		<div id="footer_copy">
+			<div class="center_column">
+				&copy;
+			</div>
+		</div>
+		
+	</div>
+</body>
+
+</html>
